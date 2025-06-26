@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-core
+google-generativeai
+chromadb
+beautifulsoup4
+requests
+python-dotenv
