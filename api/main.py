@@ -3,7 +3,10 @@ from pydantic import BaseModel
 import json, os
 from datetime import datetime
 from langchain_community.chat_models import ChatGoogleGenerativeAI
+<<<<<<< HEAD
 from langchain_community.embeddings import GoogleGenerativeAIEmbeddings
+=======
+>>>>>>> 74e38828669ab44b2ecab157ce2466043194a733
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.embeddings import GoogleGenerativeAIEmbeddings
