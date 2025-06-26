@@ -2,7 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import json, os
 from datetime import datetime
-from langchain.chat_models import ChatGoogleGenerativeAI
+from langchain_community.chat_models import ChatGoogleGenerativeAI
+from langchain_community.embeddings import GoogleGenerativeAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.embeddings import GoogleGenerativeAIEmbeddings
